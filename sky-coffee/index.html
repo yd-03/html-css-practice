@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <h1>
+    <header class="header">
+      <h1 class="logo">
         <a href="#"><img src="./images/logo.png" alt="Sky Coffee" /></a>
       </h1>
     </header>
     <!-- main-visual -->
-    <div>
+    <div class="main-visual">
       <picture>
         <source
           media="(min-width: 768px)"
@@ -28,7 +28,7 @@
     </div>
     <!-- main-visual -->
     <!-- global-nav -->
-    <nav>
+    <nav class="global-nav">
       <ul>
         <li><a href="#">menu</a></li>
         <li><a href="#">blog</a></li>
@@ -39,19 +39,20 @@
     <!-- main-content -->
     <main>
       <!-- concept -->
-      <section>
-        <div>
+      <section class="concept">
+        <div class="container">
           <img
+            class="img"
             src="./images/concept.jpg"
             alt="青いカップのコーヒー"
             width="750"
             height="759"
           />
         </div>
-        <div>
-          <div>Concept</div>
-          <h2>心静かにコーヒーを</h2>
-          <div>
+        <div class="desc">
+          <div class="subtitle">Concept</div>
+          <h2 class="title">心静かにコーヒーを</h2>
+          <div class="text">
             <p>
               立ち止まって、<br />
               空の青さを眺めて、<br />
@@ -62,115 +63,121 @@
       </section>
       <!-- concept -->
       <!-- blog -->
-      <section>
-        <div>
-          <h2>
+      <section class="blog">
+        <div class="container">
+          <h2 class="heading">
             blog
-            <span> ブログ </span>
+            <span class="subtitle"> ブログ </span>
           </h2>
-          <div>
+          <div class="list">
             <!-- No.1 -->
-            <div>
+            <div class="item">
               <a href="#">
                 <div>
                   <img
+                    class="img"
                     src="./images/thumbnail01.jpg"
                     alt="青いトラック"
                     width="700"
                     height="357"
                   />
                 </div>
-                <div>コーヒーカー始めました。</div>
-                <div>2030.08.08</div>
+                <div class="title">コーヒーカー始めました。</div>
+                <div class="date">2030.08.08</div>
               </a>
             </div>
             <!-- No.2 -->
-            <div>
+            <div class="item">
               <a href="#">
                 <div>
                   <img
+                    class="img"
                     src="./images/thumbnail02.jpg"
                     alt="牛乳"
                     width="700"
                     height="357"
                   />
                 </div>
-                <div>濃厚クリーミーなミルクをどうぞ</div>
-                <div>2030.08.08</div>
+                <div class="title">濃厚クリーミーなミルクをどうぞ</div>
+                <div class="date">2030.08.08</div>
               </a>
             </div>
             <!-- No.3 -->
-            <div>
+            <div class="item">
               <a href="#">
                 <div>
                   <img
+                    class="img"
                     src="./images/thumbnail03.jpg"
                     alt="音楽アプリ"
                     width="700"
                     height="357"
                   />
                 </div>
-                <div>
+                <div class="title">
                   Sky Coffeeのオリジナル曲が完成！無料ダウン ロード可能です。
                 </div>
-                <div>2030.08.08</div>
+                <div class="date">2030.08.08</div>
               </a>
             </div>
             <!-- No.4 -->
-            <div>
+            <div class="item">
               <a href="#">
                 <div>
                   <img
+                    class="img"
                     src="./images/thumbnail04.jpg"
                     alt="山々"
                     width="700"
                     height="357"
                   />
                 </div>
-                <div>ハイキング用のコーヒーを販売中です。<</div>
-                <div>2030.08.08</div>
+                <div class="title">ハイキング用のコーヒーを販売中です。<</div>
+                <div class="date">2030.08.08</div>
               </a>
             </div>
             <!-- No.5 -->
-            <div>
+            <div class="item">
               <a href="#">
                 <div>
                   <img
+                    class="img"
                     src="./images/thumbnail05.jpg"
                     alt="青とピンクのグラデーション"
                     width="700"
                     height="357"
                   />
                 </div>
-                <div>ショップの壁を塗ってみました。</div>
-                <div>2030.08.08</div>
+                <div class="title">ショップの壁を塗ってみました。</div>
+                <div class="date">2030.08.08</div>
               </a>
             </div>
             <!-- No.6 -->
-            <div>
+            <div class="item">
               <a href="#">
                 <div>
                   <img
+                    class="img"
                     src="./images/thumbnail06.jpg"
                     alt="コーヒーと手帳"
                     width="700"
                     height="357"
                   />
                 </div>
-                <div>ブログをはじめました。</div>
-                <div>2030.08.08</div>
+                <div class="title">ブログをはじめました。</div>
+                <div class="date">2030.08.08</div>
               </a>
             </div>
           </div>
-          <a href="#"> ブログ一覧 </a>
+          <a href="#" class="btn"> ブログ一覧 </a>
         </div>
       </section>
       <!-- blog -->
     </main>
     <!-- main-content -->
     <!-- footer -->
-    <footer>
-      <div>
+    <footer class="footer">
+      <div class="logo">
         <a href="#">
           <img
             src="./images/logo.png"
@@ -180,7 +187,7 @@
           />
         </a>
       </div>
-      <div>&copy;Sky Coffee</div>
+      <div class="copyright">&copy;Sky Coffee</div>
     </footer>
     <!-- footer -->
   </body>
