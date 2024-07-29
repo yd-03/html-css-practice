@@ -16,7 +16,9 @@ img {
   vertical-align: bottom;
 }
 
-/* header */
+/*------------------
+  header
+-------------------*/
 .header {
   padding: 50px;
 }
@@ -26,11 +28,16 @@ img {
   margin: 0 auto; /*中央寄せ*/
 }
 
-/* main-visual */
+/*------------------
+  main-visual
+-------------------*/
 .main-visual {
   text-align: center; /*画像の中央寄せ*/
 }
-/* global-nav */
+
+/*------------------
+  global-nav
+-------------------*/
 .global-nav {
   padding: 40px;
 }
@@ -49,3 +56,7 @@ img {
 .global-nav ul li:last-child {
   margin-right: 0;
 }
+
+/*------------------
+  concept
+-------------------*/
