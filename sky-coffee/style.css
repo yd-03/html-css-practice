@@ -60,3 +60,10 @@ img {
 /*------------------
   concept
 -------------------*/
+.concept {
+  padding: 50px 0;
+}
+
+.concept .img {
+  width: 50%;
+}
