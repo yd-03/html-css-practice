@@ -67,3 +67,30 @@ img {
 .concept .img {
   width: 50%;
 }
+
+.concept .desc {
+  width: 50%;
+  padding-right: 20px;
+  padding-left: 40px;
+}
+
+.concept .subtitle {
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  margin-bottom: 20px;
+}
+
+.concept .title {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  color: #24a8bf;
+  margin-bottom: 30px;
+}
+
+.concept .text p {
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.1em;
+}
