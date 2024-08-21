@@ -50,3 +50,17 @@ header {
   color: #fff;
   font-size: 20px;
 }
+
+.first-view {
+  height: 603px;
+  background-image: url(../img/fv\ 1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.feature-inner {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 20px 100px;
+}
